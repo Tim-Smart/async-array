@@ -1,5 +1,4 @@
 # AsyncArray
-==========
 
 Yet another control flow library after getting fustrated with previous ones.
 
