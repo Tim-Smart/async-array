@@ -1,5 +1,4 @@
-AsyncArray
-==========
+# AsyncArray
 
 Yet another control flow library after getting fustrated with previous ones.
 
@@ -25,6 +24,8 @@ The `next` callback takes the arguments (error, data)
 
 As you can see, you can chain stuff and the result is passed along from the previous operation. If you don't call `exec` immediately you can store the operation to be executed at some later time.
 
+## Features
+
 `AsyncArray` inherits from `Array` with the following methods added:
 
 - map
@@ -35,4 +36,3 @@ As you can see, you can chain stuff and the result is passed along from the prev
 - forEachSerial
 
 Serial methods do things one after another instead of in parallel.
-
